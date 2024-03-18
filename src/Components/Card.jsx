@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFileAlt } from "react-icons/fa";
 // import { FaDownload } from "react-icons/fa6";
 
-const Card = () => {
+const Card = (props) => {
     return (
         <div className={"relative w-60 h-72 rounded-[30px] bg-green-300 p-6 overflow-hidden"}>
             <FaFileAlt/>
