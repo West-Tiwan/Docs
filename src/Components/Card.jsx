@@ -4,7 +4,7 @@ import { FaFileAlt } from "react-icons/fa";
 
 const Card = (props) => {
     return (
-        <motion.div drag whileDrag={{scale:1.1}} dragConstraints={props.refrence} className={"relative w-60 h-72 rounded-[30px] bg-green-300 p-6 overflow-hidden"}>
+        <motion.div drag whileDrag={{scale:0.7}} whileTap={{scale:0.7}} whileHover={{scale:1.1}} dragTransition={{bounceStiffness:100 ,bounceDamping:10}} dragConstraints={props.refrence} className={"relative w-60 h-72 rounded-[30px] bg-green-300 p-6 overflow-hidden"}>
             <FaFileAlt/>
             <p className={"text-s mt-3 font-semibold leading-tight text-center"}>{props.data.title}</p>
             <p className={"text-xs mt-3 leading-tight"}>{props.data.desc}</p>
