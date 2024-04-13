@@ -13,8 +13,6 @@ const Foreground = () => {
     return (
         <div ref={ref} className={"w-full h-full top-0 left-0 fixed z-[3]"}>
             <Card data={data} refrence={ref} />
-            <card data={data} refrence={ref} />
-            <card data={data} refrence={ref} />
         </div>
     )
 }
