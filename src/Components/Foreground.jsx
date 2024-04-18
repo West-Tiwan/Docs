@@ -7,7 +7,7 @@ const Foreground = () => {
     useEffect(() => {
         setData({
             title:"lorem isaerfsa awrf e dsss afc",
-            desc:"desc wafviedugbvc askefcvbsfo asefichs awsfcoihs wefnsdc sdcbhdoawd afcoihaedfno fecioahscnfwef",
+            desc:"desc wafviedugbvc askefcvbsfo asefichs awsfcoihs wefnsdc sdcbhdoawd afcoihaedfno fecioahscnfwef afcoihaedfno fecioahscnfwef",
         });},[])
 
     return (
